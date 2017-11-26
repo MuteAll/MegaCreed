@@ -17,5 +17,5 @@ sudo pip install pytelegrambotapi —upgrade
 RED='\033[0;31m'
 NC='\033[0m'
 CYAN='\033[0;36m'
-echo -e "${CYAN}Successfully Installed ! Use The Commands Below : /launch.sh${NC}"
+echo -e "${CYAN}Successfully Installed The Required Packages ${NC}"
 exit
