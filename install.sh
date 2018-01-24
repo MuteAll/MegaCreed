@@ -13,7 +13,7 @@ git clone https://github.com/eternnoir/pyTelegramBotAPI.git
 cd pyTelegramBotAPI
 sudo python setup.py install
 sudo pip install pytelegrambotapi —upgrade
-sudo apt-get install libconfig++9v5 libstdc++6
+sudo apt-get install libconfig++9v5 libstdc++6 && apt-get install redis-server
 RED='\033[0;31m'
 NC='\033[0m'
 CYAN='\033[0;36m'
