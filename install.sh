@@ -14,7 +14,7 @@ cd pyTelegramBotAPI
 sudo python setup.py install
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz && tar zxpf luarocks-2.2.2.tar.gz && cd luarocks-2.2.2 && ./configure; sudo make bootstrap && sudo luarocks install luasocket && sudo luarocks install luasec && sudo luarocks install redis-lua && sudo luarocks install lua-term && sudo luarocks install serpent && sudo luarocks install dkjson && sudo luarocks install lanes && sudo luarocks install Lua-cURL && sudo luarocks install luaxmlrpc
 sudo pip install pytelegrambotapi --upgrade
-sudo apt-get install libstdc++9 && sudo apt-get install libconfig++9v5 libstdc++6 && sudo apt-get install libstdc++6 && sudo apt-get install lua-lgi && sudo apt-get install libnotify-dev && sudo add-apt-repository ppa:ubuntu-toolchain-r/test  && sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+sudo apt-get install libconfig++9v5 libstdc++6 && sudo apt-get install libstdc++6 && sudo apt-get install lua-lgi && sudo apt-get install libnotify-dev && sudo add-apt-repository ppa:ubuntu-toolchain-r/test  && sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
 sudo apt-get install libconfig++9v5 libstdc++6 && apt-get install redis-server
 RED='\033[0;31m'
 NC='\033[0m'
